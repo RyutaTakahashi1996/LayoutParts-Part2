@@ -1,1 +1,138 @@
 @charset "UTF-8";
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
+
+.flat-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.b1 {
+  color: #fff;
+  background: #fd0f0fd9;
+}
+
+.b2 {
+  color: #fff;
+  background: #170ffdd9;
+}
+
+.b3 {
+  color: #000;
+  background: #0ffd0fd9;
+}
+
+.flat-button-shadow {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 50px;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 1);
+}
+
+.b1 {
+  color: #fff;
+  background: #fd0f0fd9;
+}
+
+.b2 {
+  color: #fff;
+  background: #170ffdd9;
+}
+
+.b3 {
+  color: #000;
+  background: #0ffd0fd9;
+}
+
+.flat-button-shadow-push {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 50px;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.1s ease, transform 0.1s ease;
+  cursor: pointer;
+}
+
+.flat-button-shadow-push:active {
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+  transform: translateY(4px);
+}
+
+.b1 {
+  color: #fff;
+  background: #fd0f0fd9;
+}
+
+.b2 {
+  color: #fff;
+  background: #170ffdd9;
+}
+
+.b3 {
+  color: #000;
+  background: #0ffd0fd9;
+}
+
+.flat-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 50px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+/* ダブルボーダー */
+.btn01 {
+  color: #67c5ff;
+  border: 4px double #67c5ff;
+  background-color: transparent;
+}
+
+.btn01:hover {
+  background: #fffbef;
+}
+
+/* ドットボーダー */
+.btn02 {
+  color: #67c5ff;
+  border: 4px dotted #75caff;
+  background-color: transparent;
+}
+
+.btn02:hover {
+  border-style: dashed;
+}
+
+/* 背景付きボーダー */
+.btn03 {
+  color: #0079a5f8;
+  background: #d0edfff8;
+  border: 4px dashed #67c5ff;
+}
+
+.btn03:hover {
+  color: #67c5ff;
+  background: #ffffff;
+}
+
