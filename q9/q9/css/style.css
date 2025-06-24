@@ -193,8 +193,14 @@ opacity: 1;
   width: 300px;
   padding: 20px;
   background: #ffffff;
-  border: 1px solid #000000;
-  transition: .5s;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  transition: 0.5s;
+}
+
+.card1-3:last-child {
+  border-right: 1px solid #000;
 }
 
 .icon {
