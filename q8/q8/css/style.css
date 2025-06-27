@@ -8,20 +8,13 @@
 }
 
 .img-normal-repeat {
-  background: url(../../image/coffee-background.jpg) ;
-  background-repeat: no-repeat;
+  background: url(../../image/coffee-background.jpg) no-repeat;
 }
 
 .img-normal-nobashi {
-  background: url(../../image/coffee-background.jpg) ;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../../image/coffee-background.jpg) no-repeat center/cover;
 }
 
 .img-normal-all {
-  background: url(../../image/coffee-background.jpg) ;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: url(../../image/coffee-background.jpg) no-repeat center/contain;
 }
